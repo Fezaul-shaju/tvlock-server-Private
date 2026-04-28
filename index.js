@@ -5,8 +5,8 @@ const app = express();
 app.use(express.json());
 
 // ===== এই তিনটা তোমার Supabase এর info দিয়ে বদলাও =====
-const SUPABASE_URL = 'https://xxxx.supabase.co';
-const SUPABASE_KEY = 'eyJhbGci...service_role_key...';
+const SUPABASE_URL = 'https://abcdefgh.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIs...';
 // =======================================================
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
